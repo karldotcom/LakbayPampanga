@@ -1,0 +1,995 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="LocalProducts.css">
+    <link href="https://fonts.cdnfonts.com/css/milker" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/coolvetica" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <title>Local Products</title>
+</head>
+<body>
+    <nav class="navbar">
+
+    <div class="logo">
+        <img src="images/icons8-location-48.png" alt="logo">
+        <h2 class="LakbayPamp">Lakbay Pampanga</h2>
+    </div>
+
+    <ul class="nav-links">
+        <li><a href="#">Municipalities</a></li>
+        <li><a href="#">Destinations</a></li>
+        <li><a href="#">Food</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Products</a></li>
+    </ul>
+
+    <div class="search-box">
+    <span class="icon"></span>
+    <input type="text" placeholder="Search..." class="search-bar">
+  </div>
+
+    <div class="favorites">
+    <a href="#">
+        <img src="images/icons8-heart-26.png" alt="heart">
+    </a>
+</div>
+
+<div class="location">
+    <a href="#">
+        <img src="images/icons8-location-24.png" alt="location">
+    </a>
+</div>
+
+<div class="featured">
+    <a href="#">
+        <img src="images/icons8-star-24.png" alt="featured">
+    </a>
+</div>
+
+    <a href="#" class="login-btn">Log In</a>
+
+</nav>
+
+<!-- MAIN IMAGE -->
+<div class="MainBackground">
+    <img src="images/LocalProductsIMG.jpg" alt="pampangaimg">
+    <p class="img-text"><b>Local Products</b></p>
+    <p class="img-text2">Bring home authentic Kapampangan products and delicacies</p>
+</div>
+
+<div class="dropdown-box">
+
+    <label for="municipalityFilter">Municipality</label>
+
+    <select id="municipalityFilter">
+
+        <option value="all">All Municipalities</option>
+
+        <option value="angeles">Angeles City</option>
+        <option value="apalit">Apalit</option>
+        <option value="arayat">Arayat</option>
+        <option value="bacolor">Bacolor</option>
+        <option value="candaba">Candaba</option>
+        <option value="floridablanca">Floridablanca</option>
+        <option value="guagua">Guagua</option>
+        <option value="lubao">Lubao</option>
+        <option value="mabalacat">Mabalacat</option>
+        <option value="macabebe">Macabebe</option>
+        <option value="magalang">Magalang</option>
+        <option value="masantol">Masantol</option>
+        <option value="mexico">Mexico</option>
+        <option value="minalin">Minalin</option>
+        <option value="porac">Porac</option>
+        <option value="san fernando">San Fernando</option>
+        <option value="san luis">San Luis</option>
+        <option value="san simon">San Simon</option>
+        <option value="santa ana">Santa Ana</option>
+        <option value="santa rita">Santa Rita</option>
+        <option value="santo tomas">Santo Tomas</option>
+        <option value="sasmuan">Sasmuan</option>
+
+    </select>
+
+</div>
+
+<div class="container">
+      <a href="#">
+    <div class="card" data-municipality="angeles">
+
+        <div class="card-img">
+            <img src="images/AngelesProd1.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Angeles Sisig</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>A sizzling pork dish that originated in Angeles.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="angeles">
+
+        <div class="card-img">
+            <img src="images/AngelesProd2.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Angeles Bringhe</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>A coconut milk-based version of paella.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="apalit">
+
+        <div class="card-img">
+            <img src="images/ApalitProd1.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Apalit Metalworks / Blacksmithing</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>Apalit is known for its traditional metal industry, especially in barrio Canlapan.</p>
+        </div>
+
+    </div>
+    </a>
+
+
+
+    <a href="#">
+    <div class="card" data-municipality="apalit">
+
+        <div class="card-img">
+            <img src="images/ApalitProd2.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Apalit Native Delicacies</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>Homemade kakanin and other Kapampangan specialties.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="arayat">
+
+        <div class="card-img">
+            <img src="images/ArayatProd1.jpeg">
+        </div>
+
+        <div class="card-text">
+            <h2>Arayat Sugar cane products</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>Since sugar cane grows locally, you'll find products tied to this trade.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="arayat">
+
+        <div class="card-img">
+            <img src="images/ArayatProd2.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Arayat Firewood & charcoal</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>Historically a local forest byproduct.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="bacolor">
+
+        <div class="card-img">
+            <img src="images/BacolorProd1.webp">
+        </div>
+
+        <div class="card-text">
+            <h2>Bacolor Turrones de Casoy</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>A popular Kapampangan sweet made with cashew nuts, popular for pasalubong.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="bacolor">
+
+        <div class="card-img">
+            <img src="images/BacolorProd2.png">
+        </div>
+
+        <div class="card-text">
+            <h2>Bacolor Plantanillas</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>A delicious heritage dessert featuring egg crepes filled with creamy pastillas.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="candaba">
+
+        <div class="card-img">
+            <img src="images/CandabaProd1.webp">
+        </div>
+
+        <div class="card-text">
+            <h2>Candaba Vegetables</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>Eggplant, okra, and leafy greens grown in swamp and farm areas.</p>
+        </div>
+
+    </div>
+    </a>
+
+
+    <a href="#">
+    <div class="card" data-municipality="candaba">
+
+        <div class="card-img">
+            <img src="images/CandabaProd2.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Candaba Duck and poultry products</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>Duck meat, balut, salted eggs, and chicken from local farms.</p>
+        </div>
+
+    </div>
+    </a>
+
+
+
+    <a href="#">
+    <div class="card" data-municipality="floridablanca">
+
+        <div class="card-img">
+            <img src="images/FloridaProd1.webp">
+        </div>
+
+        <div class="card-text">
+            <h2>Floridablanca Handmade Crafts</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>Simple locally made products that reflect the creativity of the community.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="floridablanca">
+
+        <div class="card-img">
+            <img src="images/FloridaProd2.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Floridablanca Native Delicacies</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>Rice-based snacks like kakanin, often homemade and sold in markets.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="guagua">
+
+        <div class="card-img">
+            <img src="images/GuaguaProd1.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Guagua Betis Woodcarvings</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>Handcrafted religious statues, decorative pieces, and furniture made by skilled artisans in the Betis district.</p>
+        </div>
+
+    </div>
+    </a>
+
+
+    <a href="#">
+    <div class="card" data-municipality="guagua">
+
+        <div class="card-img">
+            <img src="images/GuaguaProd2.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Guagua Chicharon</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>Crispy, freshly fried pork cracklings sold in local markets and roadside stalls.</p>
+        </div>
+
+    </div>
+    </a>
+
+
+    <a href="#">
+    <div class="card" data-municipality="lubao">
+
+        <div class="card-img">
+            <img src="images/LubaoProd1.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Lubao Sampaguita Flower Products</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>Lubao is renowned for the fragrant sampaguita flower, and you can find sampaguita garlands, bouquets, perfumes, and souvenir accessories.</p>
+        </div>
+
+    </div>
+    </a>
+
+
+
+    <a href="#">
+    <div class="card" data-municipality="lubao">
+
+        <div class="card-img">
+            <img src="images/LubaoProd2.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Lubao Handmade Bamboo Crafts</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>Artisans produce bamboo trays, bags, decor, and eco-friendly handicrafts that reflect the town's connection to nature.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="macabebe">
+
+        <div class="card-img">
+            <img src="images/MacabebeProd1.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Macabebe Fishing Products</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>Fresh fish, shrimp, and crabs are the main livelihood products.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="macabebe">
+
+        <div class="card-img">
+            <img src="images/MacabebeProd2.webp">
+        </div>
+
+        <div class="card-text">
+            <h2>Macabebe Dried Fish</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>Sun-dried fish products commonly sold in local markets.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="mabalacat">
+
+        <div class="card-img">
+            <img src="images/MabalacatProduct1.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Mabalacat Turrones de Casoy</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>A popular delicacy in Mabalacat, turrones de casoy is made of cashew nuts wrapped in wafer and caramelized sugar. It is commonly sold in pasalubong shops around Clark and Mabalacat and is a favorite snack for tourists bringing home something local.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="mabalacat">
+
+        <div class="card-img">
+            <img src="images/MabalacatProduct2.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Mabalacat Buro</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>Buro is a traditional Kapampangan delicacy found in Mabalacat homes and local eateries. It is made by fermenting rice with small fish or shrimp, creating a strong salty-sour flavor. It is usually eaten with fried fish or vegetables and is a common dish in Kapampangan meals.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="magalang">
+
+        <div class="card-img">
+            <img src="images/MagalangProd1.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Magalang Pastillas de Leche</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>Sweet, creamy carabao-milk confections the town is known for.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="masantol">
+
+        <div class="card-img">
+            <img src="images/MasantolProd1.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Masantol Fresh Seafood</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>Fish, crabs, and shrimp caught daily from rivers and coastal areas; this is the main source of food and income of the people.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="masantol">
+
+        <div class="card-img">
+            <img src="images/MasantolProd2.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Masantol Bagoong</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>A salty paste made by fermenting fish or shrimp; it is used as a condiment and adds strong flavor to many Filipino dishes.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="mexico">
+
+        <div class="card-img">
+            <img src="images/MexicoProd1.webp">
+        </div>
+
+        <div class="card-text">
+            <h2>Mexico Suman sa Lihia</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>Sticky rice soaked in lye water, wrapped in banana leaves, and steamed; popular in Brgy. San Juan and Brgy. San Isidro.</p>
+        </div>
+
+    </div>
+    
+    <a href="#">
+    <div class="card" data-municipality="mexico">
+
+        <div class="card-img">
+            <img src="images/MexicoProd2.webp">
+        </div>
+
+        <div class="card-text">
+            <h2>Mexico Vinegar with Chili</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>Locally produced, used for cooking or as dipping sauce; popular during festivals.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="minalin">
+
+        <div class="card-img">
+            <img src="images/MinalinProd1.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Minalin Fresh Eggs and Poultry Products</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>Minalin is famous as the "Egg Basket of Central Luzon," producing millions of eggs daily.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="porac">
+
+        <div class="card-img">
+            <img src="images/PoracProd1.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Porac Tamales Kapampangan</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>A savory rice dish made with ground rice, chicken, peanuts, and banana leaves; known for its rich, slightly oily flavor.</p>
+        </div>
+
+    </div>
+    </a>
+
+
+    <a href="#">
+    <div class="card" data-municipality="porac">
+
+        <div class="card-img">
+            <img src="images/PoracProd2.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Porac Sisig</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>A famous Kapampangan dish of chopped pork, onions, and calamansi, often served sizzling.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="san fernando">
+
+        <div class="card-img">
+            <img src="images/SanfernandoProd1.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>San Fernando Parol (Giant Lanterns)</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>The parol, especially the large handcrafted lanterns featured in the Giant Lantern Festival, is the most iconic product of San Fernando. These lanterns symbolize Filipino Christmas traditions and highlight the craftsmanship of local artisans.</p>
+        </div>
+
+    </div>
+    </a>
+
+
+
+    <a href="#">
+    <div class="card" data-municipality="san fernando">
+
+        <div class="card-img">
+            <img src="images/sanFernandoProd2.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>San Fernando's Tibok-tibok</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>A traditional Kapampangan dessert made from carabao's milk, known for its smooth texture and rich flavor, representing the region's strong dairy-based culinary heritage.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="san luis">
+
+        <div class="card-img">
+            <img src="images/SanLuisProd1.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>San Luis Rice (Palay)</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>The dominant agricultural crop of San Luis, grown in irrigated fields across the municipality and supplied to markets in Pampanga and nearby provinces.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="san luis">
+
+        <div class="card-img">
+            <img src="images/SanLuisProd2.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>San Luis Freshwater Fish</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>Tilapia and hito (catfish) harvested from the municipality's 444 hectares of inland fishponds, sold fresh in local markets.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="san simon">
+
+        <div class="card-img">
+            <img src="images/SanSimonProd1.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>San Simon Inasal na Hito (Grilled Catfish)</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>Fresh catfish marinated and grilled, common in riverside areas.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="san simon">
+
+        <div class="card-img">
+            <img src="images/SanSimonProd2.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>San Simon Daing na Bangus</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>Milkfish marinated in vinegar and garlic, then fried or dried.</p>
+        </div>
+
+    </div>
+    </a>
+
+
+
+    <a href="#">
+    <div class="card" data-municipality="santa ana">
+
+        <div class="card-img">
+            <img src="images/StaAnaProd1.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Santa Ana Rice (Palay)</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>Main product of Sta. Ana, includes common varieties like regular white rice and long-grain rice.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="santa ana">
+
+        <div class="card-img">
+            <img src="images/StaAnaProd2.webp">
+        </div>
+
+        <div class="card-text">
+            <h2>Santa Ana Corn (Mais)</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>Used for feeds and local consumption.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="santa rita">
+
+        <div class="card-img">
+            <img src="images/StaRitaProd1.webp">
+        </div>
+
+        <div class="card-text">
+            <h2>Santa Rita Duman</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>A seasonal, treasured delicacy made from pounded young glutinous rice, known for its green hue, nuttiness, and soft texture.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="santa rita">
+
+        <div class="card-img">
+            <img src="images/StaRitaProd2.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Santa Rita Uraro (Arrowroot Cookies)</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>Melt-in-your-mouth biscuits that are powdery in texture, often shaped as flowers.</p>
+        </div>
+
+    </div>
+    </a>
+
+
+    <a href="#">
+    <div class="card" data-municipality="santo tomas">
+
+        <div class="card-img">
+            <img src="images/StoTomasProd1.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Santo Tomas Caskets and Coffins</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>Santo Tomas supplies approximately 70% of the caskets used in the Philippines. The industry is concentrated among family-owned workshops producing various designs using wood, metal, and fabric materials.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="santo tomas">
+
+        <div class="card-img">
+            <img src="images/StoTomasProd2.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Santo Tomas Red Clay Pottery</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>The town's signature craft product, featuring vases, fountains, planters, and decorative earthenware made from locally sourced red clay using traditional firing techniques.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="sasmuan">
+
+        <div class="card-img">
+            <img src="images/SasmuanProd1.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Sasmuan Rice and Vegetables</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>Agriculture-based products.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="sasmuan">
+
+        <div class="card-img">
+            <img src="images/SasmuanProd2.webp">
+        </div>
+
+        <div class="card-text">
+            <h2>Sasmuan Fish and seafood</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>Main livelihood products.</p>
+        </div>
+
+    </div>
+    </a>
+</div>
+</body>
+</html>

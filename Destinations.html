@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Destinations.css">
+    <link href="https://fonts.cdnfonts.com/css/milker" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/coolvetica" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <title>Destinations</title>
+</head>
+<body>
+    <nav class="navbar">
+
+    <div class="logo">
+        <img src="images/icons8-location-48.png" alt="logo">
+        <h2 class="LakbayPamp">Lakbay Pampanga</h2>
+    </div>
+
+    <ul class="nav-links">
+        <li><a href="#">Municipalities</a></li>
+        <li><a href="#">Destinations</a></li>
+        <li><a href="#">Food</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Products</a></li>
+    </ul>
+
+    <div class="search-box">
+    <span class="icon"></span>
+    <input type="text" placeholder="Search..." class="search-bar">
+  </div>
+
+    <div class="favorites">
+    <a href="#">
+        <img src="images/icons8-heart-26.png" alt="heart">
+    </a>
+</div>
+
+<div class="location">
+    <a href="#">
+        <img src="images/icons8-location-24.png" alt="location">
+    </a>
+</div>
+
+<div class="featured">
+    <a href="#">
+        <img src="images/icons8-star-24.png" alt="featured">
+    </a>
+</div>
+
+    <a href="#" class="login-btn">Log In</a>
+
+</nav>
+
+<!-- MAIN IMAGE -->
+<div class="MainBackground">
+    <img src="images/DestinationIMG.jpg" alt="pampangaimg">
+    <p class="img-text"><b>Tourist <br>Destinations</b></p>
+    <p class="img-text2">Discover the best places to visit in Pampanga</p>
+</div>
+
+<div class="dropdown-box">
+
+    <label for="municipalityFilter">Municipality</label>
+
+    <select id="municipalityFilter">
+
+        <option value="all">All Municipalities</option>
+
+        <option value="angeles">Angeles City</option>
+        <option value="apalit">Apalit</option>
+        <option value="arayat">Arayat</option>
+        <option value="bacolor">Bacolor</option>
+        <option value="candaba">Candaba</option>
+        <option value="floridablanca">Floridablanca</option>
+        <option value="guagua">Guagua</option>
+        <option value="lubao">Lubao</option>
+        <option value="mabalacat">Mabalacat</option>
+        <option value="macabebe">Macabebe</option>
+        <option value="magalang">Magalang</option>
+        <option value="masantol">Masantol</option>
+        <option value="mexico">Mexico</option>
+        <option value="minalin">Minalin</option>
+        <option value="porac">Porac</option>
+        <option value="san fernando">San Fernando</option>
+        <option value="san luis">San Luis</option>
+        <option value="san simon">San Simon</option>
+        <option value="santa ana">Santa Ana</option>
+        <option value="santa rita">Santa Rita</option>
+        <option value="santo tomas">Santo Tomas</option>
+        <option value="sasmuan">Sasmuan</option>
+
+    </select>
+
+</div>
+
+<div class="container">
+    <a href="municipality.html?city=angeles">
+    <div class="card" data-municipality="angeles">
+
+        <div class="card-img">
+            <img src="images/AngelesDestination1.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Clark Freeport Zone</h2>
+
+            <div class="rating">
+                <span class="star">☆</span>
+                <span class="star">☆</span>
+                <span class="star">☆</span>
+                <span class="star">☆</span>
+                <span class="star">☆</span>
+
+                <span class="score">0.0</span>
+            </div>
+
+            <p>
+                A major business and tourism district known for modern attractions,
+                shopping centers, hotels, casinos, and recreational destinations
+                built from the former Clark Air Base.
+            </p>
+        </div>
+
+    </div>
+</a>
+
+    <a href="#">
+    <div class="card" data-municipality="angeles">
+
+        <div class="card-img">
+            <img src="images/AngelesDestination2.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Nayon Pilipino Clark</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>A cultural destination showcasing Filipino heritage, traditions, architecture, and local arts through exhibits and themed attractions.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="apalit">
+
+        <div class="card-img">
+            <img src="images/ApalitDestination1.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Saint Peter the Apostle Parish Church</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>A historic Catholic church dedicated to St. Peter the Apostle, known for its religious importance and annual Apung Iru celebrations.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="apalit">
+
+        <div class="card-img">
+            <img src="images/ApalitDestination2.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Pampanga River</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>One of Central Luzon’s major rivers, supporting fishing communities, river transport, and religious fluvial processions in Apalit.</p>
+        </div>
+
+    </div>
+    </a>
+    
+    <a href="#">
+    <div class="card" data-municipality="arayat">
+
+        <div class="card-img">
+            <img src="images/ArayatDestination1.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Mount Arayat</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>An iconic dormant volcano famous for hiking trails, forests, wildlife, and strong cultural significance in Pampanga folklore.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="bacolor">
+
+        <div class="card-img">
+            <img src="images/BacolorDestination1.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>San Guillermo Parish Church</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>A historic church partially buried by lahar during Mount Pinatubo’s eruption, symbolizing Bacolor’s resilience and faith.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="bacolor">
+
+        <div class="card-img">
+            <img src="images/BacolorDestination2.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Our Lady of Lourdes Church</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>A Catholic church and pilgrimage site visited for prayer, devotion, and religious gatherings by local residents.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="candaba">
+
+        <div class="card-img">
+            <img src="images/CandabaDestination1.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Candaba Swamp</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>A protected wetland sanctuary famous for migratory birds, rich biodiversity, and scenic natural landscapes during rainy seasons.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="candaba">
+
+        <div class="card-img">
+            <img src="images/CandabaDestination2.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>San Andres Apostol Parish Church</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>A historic Catholic church dedicated to St. Andrew the Apostle and center of Candaba’s religious traditions.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="floridablanca">
+
+        <div class="card-img">
+            <img src="images/FloridaDestination1.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>St. Joseph the Worker Parish Church</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>A Catholic church dedicated to St. Joseph, serving as an important religious landmark in Floridablanca.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="floridablanca">
+
+        <div class="card-img">
+            <img src="images/FloridaDestination2.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Palakol River</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>A peaceful river destination known for its natural scenery, fishing activities, and importance to nearby farming and local communities.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="guagua">
+
+        <div class="card-img">
+            <img src="images/GuaguaDestination2.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Santiago Apostol Parish Church</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>A centuries-old church recognized for its Spanish-era architecture and strong religious traditions in Guagua.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="lubao">
+
+        <div class="card-img">
+            <img src="images/LubaoDestination.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Lubao Bamboo Hub and Eco Park</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>An eco-tourism destination promoting bamboo products, sustainability, and outdoor recreational activities for visitors.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="lubao">
+
+        <div class="card-img">
+            <img src="images/LubaoDestination2.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Lubao Town Plaza</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>A public gathering space surrounded by historical structures, commonly used for events and community celebrations.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="mabalacat">
+
+        <div class="card-img">
+            <img src="images/MabalacatDestination1.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Aqua Planet</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>A popular water park offering thrilling slides, wave pools, and fun attractions for families and tourists.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="mabalacat">
+
+        <div class="card-img">
+            <img src="images/MabalacatDestination2.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Dinosaurs Island</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>A family-friendly attraction featuring life-sized dinosaur displays, interactive activities, and educational exhibits.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="macabebe">
+
+        <div class="card-img">
+            <img src="images/MacabebeDestination1.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>St. Nicholas of Tolentine Parish Church</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>A historic church dedicated to St. Nicholas of Tolentine, known for its religious importance and classic architecture.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="magalang">
+
+        <div class="card-img">
+            <img src="images/MagalangDestination1.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Magalang Plaza</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>A central public space in Magalang used for community gatherings, local events, fiestas, and recreational activities for residents and visitors.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="masantol">
+
+        <div class="card-img">
+            <img src="images/MasantolDestination1.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>San Miguel Archangel Parish Church</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>A Catholic church dedicated to St. Michael the Archangel and center of Masantol’s religious celebrations.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="mexico">
+
+        <div class="card-img">
+            <img src="images/MexicoDestination1.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Global Construct City</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>A developing commercial and residential area featuring modern establishments, businesses, and urban infrastructure in Mexico, Pampanga.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="mexico">
+
+        <div class="card-img">
+            <img src="images/MexicoDestination2.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Lakeshore Pampanga</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>A recreational lakeside destination known for outdoor activities, events, and scenic views near the municipality.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="minalin">
+
+        <div class="card-img">
+            <img src="images/MinalinDestination1.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Santa Monica Parish Church</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>A historic church recognized for its unique architecture and role in Minalin’s religious traditions.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="minalin">
+
+        <div class="card-img">
+            <img src="images/MinalinDestination2.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Sunset Park</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>A relaxing public destination where visitors enjoy open spaces, sunsets, and recreational activities with families and friends.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="porac">
+
+        <div class="card-img">
+            <img src="images/PoracDestination1.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Sandbox at Alviera</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>An adventure park offering zip lines, ATV rides, obstacle courses, and outdoor recreational activities for tourists.</p>
+        </div>
+
+    </div>
+    </a>
+
+      <a href="#">
+    <div class="card" data-municipality="porac">
+
+        <div class="card-img">
+            <img src="images/PoracDestination2.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Miyamit Falls</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>A scenic waterfall destination surrounded by forests and natural landscapes, popular among hikers and nature enthusiasts.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="sanluis">
+
+        <div class="card-img">
+            <img src="images/SanLuisDestination1.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Luis Taruc Monument</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>A historical monument honoring Luis Taruc, a prominent Kapampangan revolutionary and political figure from Pampanga.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="sanluis">
+
+        <div class="card-img">
+            <img src="images/SanLuisDestination2.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>San Luis Parish Church</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>A Catholic church serving as the center of religious activities and patron saint celebrations in San Luis.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="sansimon">
+
+        <div class="card-img">
+            <img src="images/SanSimonDestination1.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>San Simon Parish Church</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>A historic Catholic church known for religious gatherings, patron saint festivities, and community devotion in San Simon.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="santa ana">
+
+        <div class="card-img">
+            <img src="images/StaAnaDestination1.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Santa Ana Parish Church</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>A religious landmark dedicated to Saint Anne, serving as the center of worship and local traditions in the municipality.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="santa ana">
+
+        <div class="card-img">
+            <img src="images/StaAnaDestination2.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Santa Ana Public Market</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>A busy local marketplace where residents buy fresh produce, seafood, and locally made products daily.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="santa rita">
+
+        <div class="card-img">
+            <img src="images/StaRitaDestination1.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Santa Rita Parish Church</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>A historic church known for religious gatherings, community traditions, and devotion to Saint Rita.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="santa rita">
+
+        <div class="card-img">
+            <img src="images/StaRitaDestination2.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Eco Park</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>A relaxing nature destination featuring green landscapes, open spaces, and outdoor recreational activities.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="santo tomas">
+
+        <div class="card-img">
+            <img src="images/StoTomasDestination1.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Santo Tomas Apostle Parish Church</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>A historic church honoring St. Thomas the Apostle, known for religious celebrations and community gatherings.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="san fernando">
+
+        <div class="card-img">
+            <img src="images/SanFernandoDestination1.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Sky Ranch Pampanga</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>A popular amusement park featuring rides, attractions, and entertainment activities for families and tourists.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="san fernando">
+
+        <div class="card-img">
+            <img src="images/SanFernandoDestination2.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Paskuhan Village</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>A Christmas-themed destination famous for giant lantern displays, holiday decorations, and seasonal events in Pampanga.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="sasmuan">
+
+        <div class="card-img">
+            <img src="images/SasmuanDestination1.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Santa Lucia Parish Church</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>A historic church dedicated to Saint Lucy, serving as an important religious and cultural landmark in Sasmuan.</p>
+        </div>
+
+    </div>
+    </a>
+</div>
+</body>
+</html>

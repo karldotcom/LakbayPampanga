@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="MunicipalitiesMainCSS.css">
+<link href="https://fonts.cdnfonts.com/css/milker" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/coolvetica" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+<title>Apalit</title>
+</head>
+
+<body>
+
+<nav class="navbar">
+
+  <div class="logo">
+    <img src="images/icons8-location-48.png">
+    <a href="Homepage.html"><h2 class="LakbayPamp">Lakbay Pampanga</h2></a>
+  </div>
+
+  <ul class="nav-links">
+    <li><a href="#">Municipalities</a></li>
+    <li><a href="#">Destinations</a></li>
+    <li><a href="#">Food</a></li>
+    <li><a href="#">Events</a></li>
+    <li><a href="#">Products</a></li>
+  </ul>
+
+  <div class="search-box">
+    <span class="icon"></span>
+    <input type="text" class="search-bar" placeholder="Search...">
+  </div>
+
+  <div class="favorites">
+    <a href="#">
+        <img src="images/icons8-heart-26.png" alt="heart">
+    </a>
+</div>
+
+<div class="location">
+    <a href="#">
+        <img src="images/icons8-location-24.png" alt="location">
+    </a>
+</div>
+
+<div class="featured">
+    <a href="#">
+        <img src="images/icons8-star-24.png" alt="featured">
+    </a>
+</div>
+
+  <a href="#" class="login-btn">Log In</a>
+
+</nav>
+
+<div class="MainBackground">
+  <img src="images/apalitimg.jpg">
+</div>
+
+<div class="overlay-card">
+
+  <div class="top">
+    <div>
+      <h1>Apalit</h1>
+      <p class="subtitle">Known for the Apung Iru Fluvial Festival, Apalit is a river-based municipality famous for its deep Catholic devotion and annual boat procession along the Pampanga River.</p>
+    </div>
+
+    <div class="top-actions">
+      <div class="imgicons fav" onclick="this.classList.toggle('active')">♡ Favorite</div>
+      <div class="imgicons visited" onclick="this.classList.toggle('active')">✔ Visited</div>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="ac-ratingSection">
+    <h3>Rate this Municipality</h3>
+
+    <div class="ac-stars" id="ac-stars">
+      <span class="ac-star">☆</span>
+      <span class="ac-star">☆</span>
+      <span class="ac-star">☆</span>
+      <span class="ac-star">☆</span>
+      <span class="ac-star">☆</span>
+    </div>
+  </div>
+
+  <div class="ac-statsContainer">
+
+    <div class="ac-statItem">
+      <div class="ac-iconBadge ac-badgeRed">
+        <img src="images/icons8-persons-30.png">
+      </div>
+      <div class="ac-statText">
+        <h4>Population</h4>
+        <p>107,965</p>
+      </div>
+    </div>
+
+    <div class="ac-statItem">
+      <div class="ac-iconBadge ac-badgeYellow">
+        <img src="images/icons8-map-30.png">
+      </div>
+      <div class="ac-statText">
+        <h4>Area</h4>
+        <p>61.47 km²</p>
+      </div>
+    </div>
+
+    <div class="ac-statItem">
+      <div class="ac-iconBadge ac-badgeRed">
+        <img src="images/icons8-location-48(white).png">
+      </div>
+      <div class="ac-statText">
+        <h4>Province</h4>
+        <p>Pampanga</p>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+<br>
+
+<p class="Municipalitiestxt">Destinations in Apalit</p>
+
+<div class="container">
+  <a href="#">
+    <div class="card" data-municipality="apalit">
+
+        <div class="card-img">
+            <img src="images/ApalitDestination1.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Saint Peter the Apostle Parish Church</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>A historic Catholic church dedicated to St. Peter the Apostle, known for its religious importance and annual Apung Iru celebrations.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="apalit">
+
+        <div class="card-img">
+            <img src="images/ApalitDestination2.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Pampanga River</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>One of Central Luzon’s major rivers, supporting fishing communities, river transport, and religious fluvial processions in Apalit.</p>
+        </div>
+
+    </div>
+    </a>
+    
+</div>
+
+<p class="Municipalitiestxt">Food Places in Apalit</p>
+
+<div class="container">
+  <a href="#">
+    <div class="card" data-municipality="apalit">
+
+        <div class="card-img">
+            <img src="images/ApalitFood1.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Kusina Ng Ima (O.C.G. Grill House)</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>The restaurant offers a variety of Filipino dishes with a Kapampangan twist, such as Kare-Kare and Patatim. It is known for serving authentic dishes with fresh ingredients, making it a perfect spot for family and friends.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="apalit">
+
+        <div class="card-img">
+            <img src="images/ApalitFood2.webp">
+        </div>
+
+        <div class="card-text">
+            <h2>Black Olives Café</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>A historic Catholic church dedicated to St. Peter the Apostle, known for its religious importance and annual Apung Iru celebrations.</p>
+        </div>
+
+    </div>
+    </a>
+
+
+    <a href="#">
+    <div class="card" data-municipality="apalit">
+
+        <div class="card-img">
+            <img src="images/ApalitFood3.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>BOK Korean Fried Chicken – Apalit</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>BOK Korean Fried Chicken in Apalit serves crispy, flavorful Korean-style fried chicken with a variety of sauces, making it a go-to spot for barkadas craving comfort food with a Korean twist.</p>
+        </div>
+
+    </div>
+    </a>
+
+</div>
+
+<p class="Municipalitiestxt">Events in Apalit</p>
+
+<div class="container">
+  <a href="#">
+    <div class="card" data-municipality="apalit">
+
+        <div class="card-img">
+            <img src="images/Apalitevent1.png">
+        </div>
+
+        <div class="card-text">
+            <h2>Apung Iru Fluvial Festival</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>A grand river procession honoring St. Peter (Apung Iru), where decorated boats carry the saint along Pampanga River accompanied by devotees and prayers.</p>
+        </div>
+
+    </div>
+    </a>
+</div>
+
+<p class="Municipalitiestxt">Local Products From Apalit</p>
+
+<div class="container">
+  <a href="#">
+    <div class="card" data-municipality="apalit">
+
+        <div class="card-img">
+            <img src="images/ApalitProd1.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Apalit Metalworks / Blacksmithing</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>Apalit is known for its traditional metal industry, especially in barrio Canlapan.</p>
+        </div>
+
+    </div>
+    </a>
+
+
+
+    <a href="#">
+    <div class="card" data-municipality="apalit">
+
+        <div class="card-img">
+            <img src="images/ApalitProd2.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Apalit Native Delicacies</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>Homemade kakanin and other Kapampangan specialties.</p>
+        </div>
+
+    </div>
+    </a>
+</div>
+
+<footer class="footer">
+
+    <div class="footer-col brand">
+        <div class="brand-title">
+            <img src="images/icons8-location-48.png" alt="icon">
+            <h2>Lakbay Pampanga</h2>
+        </div>
+
+        <p class="tagline">
+            Your ultimate guide to exploring the culture, food, and beauty of Pampanga.
+        </p>
+    </div>
+
+    <div class="footer-col">
+        <h3>Quick Links</h3>
+        <ul>
+            <li><a href="AboutPampanga.html">About Pampanga</a></li>
+            <li><a href="Municipalities.html">Municipalities</a></li>
+            <li><a href="Destinations.html">Destinations</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </div>
+
+    <div class="footer-col">
+        <h3>Explore</h3>
+        <ul>
+            <li><a href="Foods.html">Food Places</a></li>
+            <li><a href="Events.html">Events</a></li>
+            <li><a href="LocalProducts.html">Local Products</a></li>
+        </ul>
+    </div>
+
+    <div class="footer-col">
+        <h3>Contact Info</h3>
+
+        <p>
+            <img src="images/icons8-email-24.png" class="footer-icon">
+            <a href="mailto:lakbaypampanga@email.com">lakbaypampanga@email.com</a>
+        </p>
+
+        <p>
+            <img src="images/icons8-phone-50.png" class="footer-icon">
+            <a href="tel:+639000000000">+63 900 000 0000</a>
+        </p>
+
+        <div class="socials">
+            <a href="#"><img src="images/icons8-facebook-24.png"></a>
+            <a href="#"><img src="images/icons8-instagram-24.png"></a>
+            <a href="#"><img src="images/icons8-x-30.png"></a>
+        </div>
+    </div>
+
+</footer>
+
+<div class="footer-bottom">
+    <p>© 2026 Lakbay Pampanga. All Rights Reserved.</p>
+</div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+
+</body>
+</html>

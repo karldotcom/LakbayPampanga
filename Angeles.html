@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="MunicipalitiesMainCSS.css">
+<link href="https://fonts.cdnfonts.com/css/milker" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/coolvetica" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+<title>Angeles</title>
+</head>
+
+<body>
+
+<nav class="navbar">
+
+  <div class="logo">
+    <img src="images/icons8-location-48.png">
+    <a href="Homepage.html"><h2 class="LakbayPamp">Lakbay Pampanga</h2></a>
+  </div>
+
+  <ul class="nav-links">
+    <li><a href="#">Municipalities</a></li>
+    <li><a href="#">Destinations</a></li>
+    <li><a href="#">Food</a></li>
+    <li><a href="#">Events</a></li>
+    <li><a href="#">Products</a></li>
+  </ul>
+
+  <div class="search-box">
+    <span class="icon"></span>
+    <input type="text" class="search-bar" placeholder="Search...">
+  </div>
+
+  <div class="favorites">
+    <a href="#">
+        <img src="images/icons8-heart-26.png" alt="heart">
+    </a>
+</div>
+
+<div class="location">
+    <a href="#">
+        <img src="images/icons8-location-24.png" alt="location">
+    </a>
+</div>
+
+<div class="featured">
+    <a href="#">
+        <img src="images/icons8-star-24.png" alt="featured">
+    </a>
+</div>
+
+  <a href="#" class="login-btn">Log In</a>
+
+</nav>
+
+<div class="MainBackground">
+  <img src="images/angelesIMG2.jpg">
+</div>
+
+<div class="overlay-card">
+
+  <div class="top">
+    <div>
+      <h1>Angeles City</h1>
+      <p class="subtitle">Known as the Entertainment Capital of Central Luzon, Angeles City is a highly urbanized destination near Clark known for its nightlife, food scene, and strong tourism and business development.</p>
+    </div>
+
+    <div class="top-actions">
+      <div class="imgicons fav" onclick="this.classList.toggle('active')">♡ Favorite</div>
+      <div class="imgicons visited" onclick="this.classList.toggle('active')">✔ Visited</div>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="ac-ratingSection">
+    <h3>Rate this Municipality</h3>
+
+    <div class="ac-stars" id="ac-stars">
+      <span class="ac-star">☆</span>
+      <span class="ac-star">☆</span>
+      <span class="ac-star">☆</span>
+      <span class="ac-star">☆</span>
+      <span class="ac-star">☆</span>
+    </div>
+  </div>
+
+  <div class="ac-statsContainer">
+
+    <div class="ac-statItem">
+      <div class="ac-iconBadge ac-badgeRed">
+        <img src="images/icons8-persons-30.png">
+      </div>
+      <div class="ac-statText">
+        <h4>Population</h4>
+        <p>462,928</p>
+      </div>
+    </div>
+
+    <div class="ac-statItem">
+      <div class="ac-iconBadge ac-badgeYellow">
+        <img src="images/icons8-map-30.png">
+      </div>
+      <div class="ac-statText">
+        <h4>Area</h4>
+        <p>63.37 km²</p>
+      </div>
+    </div>
+
+    <div class="ac-statItem">
+      <div class="ac-iconBadge ac-badgeRed">
+        <img src="images/icons8-location-48(white).png">
+      </div>
+      <div class="ac-statText">
+        <h4>Province</h4>
+        <p>Pampanga</p>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+<br>
+
+<p class="Municipalitiestxt">Destinations in Angeles city</p>
+
+<div class="container">
+  <a href="municipality.html?city=angeles">
+    <div class="card" data-municipality="angeles">
+
+        <div class="card-img">
+            <img src="images/AngelesDestination1.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Clark Freeport Zone</h2>
+
+            <div class="rating">
+                <span class="star">☆</span>
+                <span class="star">☆</span>
+                <span class="star">☆</span>
+                <span class="star">☆</span>
+                <span class="star">☆</span>
+
+                <span class="score">0.0</span>
+            </div>
+
+            <p>
+                A major business and tourism district known for modern attractions,
+                shopping centers, hotels, casinos, and recreational destinations
+                built from the former Clark Air Base.
+            </p>
+        </div>
+
+    </div>
+</a>
+
+    <a href="#">
+    <div class="card" data-municipality="angeles">
+
+        <div class="card-img">
+            <img src="images/AngelesDestination2.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Nayon Pilipino Clark</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>A cultural destination showcasing Filipino heritage, traditions, architecture, and local arts through exhibits and themed attractions.</p>
+        </div>
+
+    </div>
+    </a>
+</div>
+
+<p class="Municipalitiestxt">Food Places in Angeles city</p>
+
+<div class="container">
+  <a href="#">
+    <div class="card" data-municipality="angeles">
+
+        <div class="card-img">
+            <img src="images/AngelesFood2.png">
+        </div>
+
+        <div class="card-text">
+            <h2>Aling Lucing's Sisig</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>Known as the "Sisig Capital," this is where the original sisig became popular.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="angeles">
+
+        <div class="card-img">
+            <img src="images/AngelesFood1.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Mila's Tokwa't Baboy</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>Famous for its crispy pork and tofu dishes.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="angeles">
+
+        <div class="card-img">
+            <img src="images/AngelesFood3.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Cafe Fleur</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>A modern restaurant serving Kapampangan dishes with a twist.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="angeles">
+
+        <div class="card-img">
+            <img src="images/AngelesFood4.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Bale Dutung (Chef Claude Tayag)</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>Bale Dutung is a private dining space by Chef Claude Tayag, a Kapampangan chef, author, and one of the culinary giants of the country.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="angeles">
+
+        <div class="card-img">
+            <img src="images/AngelesFood5.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Apag Marangle</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>Apag Marangle is one of Pampanga’s most beloved Kapampangan restaurants, and yes — they have a branch in Angeles City aside from their original site in Guagua.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="angeles">
+
+        <div class="card-img">
+            <img src="images/AngelesFood6.png">
+        </div>
+
+        <div class="card-text">
+            <h2>Trattoria Altrove Angeles City</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>Trattoria Altrove Angeles City is a delightful escape that feels like stepping into an enchanting Italian villa, especially when you choose to dine outdoors. </p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="angeles">
+
+        <div class="card-img">
+            <img src="images/AngelesFood7.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Scots Restaurant & Cafe</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>Scots Restaurant & Café in Angeles City, Pampanga is a modern dining spot that blends the feel of a café with hearty restaurant meals.</p>
+        </div>
+
+    </div>
+    </a>
+</div>
+
+<p class="Municipalitiestxt">Events in Angeles city</p>
+
+<div class="container">
+  <a href="#">
+    <div class="card" data-municipality="angeles">
+
+        <div class="card-img">
+            <img src="images/AngelesEvent1.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Tigtigan Terakan Keng Dalan</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>A major street party festival where the city center becomes filled with live bands, dancing crowds, and food stalls. It highlights Angeles City’s strong music culture and vibrant nightlife atmosphere.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="angeles">
+
+        <div class="card-img">
+            <img src="images/AngelesEvent2.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>La Naval Fiesta</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>A Catholic religious celebration honoring Our Lady of La Naval through solemn masses and processions, reflecting deep devotion among residents.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="angeles">
+
+        <div class="card-img">
+            <img src="images/AngelesEvent3.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Philippine International Hot Air Balloon Fiesta</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>A large aviation event held near Clark showcasing colorful hot air balloons, aerial displays, and recreational activities attracting local and foreign visitors.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="angeles">
+
+        <div class="card-img">
+            <img src="images/AngelesEvent4.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Lubenas ning Pasku</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>A Christmas lantern parade that showcases giant lanterns, music, and Kapampangan holiday traditions celebrated across the city streets.</p>
+        </div>
+
+    </div>
+    </a>
+</div>
+
+<p class="Municipalitiestxt">Local Products From Angeles City</p>
+
+<div class="container">
+  <a href="#">
+    <div class="card" data-municipality="angeles">
+
+        <div class="card-img">
+            <img src="images/AngelesProd1.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Angeles Sisig</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>A sizzling pork dish that originated in Angeles.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="angeles">
+
+        <div class="card-img">
+            <img src="images/AngelesProd2.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Angeles Bringhe</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>A coconut milk-based version of paella.</p>
+        </div>
+
+    </div>
+    </a>
+</div>
+
+<footer class="footer">
+
+    <div class="footer-col brand">
+        <div class="brand-title">
+            <img src="images/icons8-location-48.png" alt="icon">
+            <h2>Lakbay Pampanga</h2>
+        </div>
+
+        <p class="tagline">
+            Your ultimate guide to exploring the culture, food, and beauty of Pampanga.
+        </p>
+    </div>
+
+    <div class="footer-col">
+        <h3>Quick Links</h3>
+        <ul>
+            <li><a href="AboutPampanga.html">About Pampanga</a></li>
+            <li><a href="Municipalities.html">Municipalities</a></li>
+            <li><a href="Destinations.html">Destinations</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </div>
+
+    <div class="footer-col">
+        <h3>Explore</h3>
+        <ul>
+            <li><a href="Foods.html">Food Places</a></li>
+            <li><a href="Events.html">Events</a></li>
+            <li><a href="LocalProducts.html">Local Products</a></li>
+        </ul>
+    </div>
+
+    <div class="footer-col">
+        <h3>Contact Info</h3>
+
+        <p>
+            <img src="images/icons8-email-24.png" class="footer-icon">
+            <a href="mailto:lakbaypampanga@email.com">lakbaypampanga@email.com</a>
+        </p>
+
+        <p>
+            <img src="images/icons8-phone-50.png" class="footer-icon">
+            <a href="tel:+639000000000">+63 900 000 0000</a>
+        </p>
+
+        <div class="socials">
+            <a href="#"><img src="images/icons8-facebook-24.png"></a>
+            <a href="#"><img src="images/icons8-instagram-24.png"></a>
+            <a href="#"><img src="images/icons8-x-30.png"></a>
+        </div>
+    </div>
+
+</footer>
+
+<div class="footer-bottom">
+    <p>© 2026 Lakbay Pampanga. All Rights Reserved.</p>
+</div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+
+</body>
+</html>

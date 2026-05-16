@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="MunicipalitiesMainCSS.css">
+<link href="https://fonts.cdnfonts.com/css/milker" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/coolvetica" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+<title>San Fernando City</title>
+</head>
+
+<body>
+
+<nav class="navbar">
+
+  <div class="logo">
+    <img src="images/icons8-location-48.png">
+    <a href="Homepage.html"><h2 class="LakbayPamp">Lakbay Pampanga</h2></a>
+  </div>
+
+  <ul class="nav-links">
+    <li><a href="#">Municipalities</a></li>
+    <li><a href="#">Destinations</a></li>
+    <li><a href="#">Food</a></li>
+    <li><a href="#">Events</a></li>
+    <li><a href="#">Products</a></li>
+  </ul>
+
+  <div class="search-box">
+    <span class="icon"></span>
+    <input type="text" class="search-bar" placeholder="Search...">
+  </div>
+
+   <div class="favorites">
+    <a href="#">
+        <img src="images/icons8-heart-26.png" alt="heart">
+    </a>
+</div>
+
+<div class="location">
+    <a href="#">
+        <img src="images/icons8-location-24.png" alt="location">
+    </a>
+</div>
+
+<div class="featured">
+    <a href="#">
+        <img src="images/icons8-star-24.png" alt="featured">
+    </a>
+</div>
+
+  <a href="#" class="login-btn">Log In</a>
+
+</nav>
+
+<div class="MainBackground">
+  <img src="images/SanFernandoIMG.jpg">
+</div>
+
+<div class="overlay-card">
+
+  <div class="top">
+    <div>
+      <h1>San Fernando City</h1>
+      <p class="subtitle">Known as the Christmas Capital of the Philippines, San Fernando is famous for its Giant Lantern Festival, strong culture, and role as Pampanga’s provincial capital.</p>
+    </div>
+
+    <div class="top-actions">
+      <div class="imgicons fav" onclick="this.classList.toggle('active')">♡ Favorite</div>
+      <div class="imgicons visited" onclick="this.classList.toggle('active')">✔ Visited</div>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="ac-ratingSection">
+    <h3>Rate this Municipality</h3>
+
+    <div class="ac-stars" id="ac-stars">
+      <span class="ac-star">☆</span>
+      <span class="ac-star">☆</span>
+      <span class="ac-star">☆</span>
+      <span class="ac-star">☆</span>
+      <span class="ac-star">☆</span>
+    </div>
+  </div>
+
+  <div class="ac-statsContainer">
+
+    <div class="ac-statItem">
+      <div class="ac-iconBadge ac-badgeRed">
+        <img src="images/icons8-persons-30.png">
+      </div>
+      <div class="ac-statText">
+        <h4>Population</h4>
+        <p>306,659</p>
+      </div>
+    </div>
+
+    <div class="ac-statItem">
+      <div class="ac-iconBadge ac-badgeYellow">
+        <img src="images/icons8-map-30.png">
+      </div>
+      <div class="ac-statText">
+        <h4>Area</h4>
+        <p>67.74 km²</p>
+      </div>
+    </div>
+
+    <div class="ac-statItem">
+      <div class="ac-iconBadge ac-badgeRed">
+        <img src="images/icons8-location-48(white).png">
+      </div>
+      <div class="ac-statText">
+        <h4>Province</h4>
+        <p>Pampanga</p>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+<br>
+
+<p class="Municipalitiestxt">Destinations in San Fernando City</p>
+
+<div class="container">
+    <a href="#">
+    <div class="card" data-municipality="san fernando">
+
+        <div class="card-img">
+            <img src="images/SanFernandoDestination1.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Sky Ranch Pampanga</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>A popular amusement park featuring rides, attractions, and entertainment activities for families and tourists.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="san fernando">
+
+        <div class="card-img">
+            <img src="images/SanFernandoDestination2.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Paskuhan Village</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>A Christmas-themed destination famous for giant lantern displays, holiday decorations, and seasonal events in Pampanga.</p>
+        </div>
+
+    </div>
+    </a>
+</div>
+
+<p class="Municipalitiestxt">Food Places in San Fernando City</p>
+
+<div class="container">
+    <a href="#">
+    <div class="card" data-municipality="san fernando">
+
+        <div class="card-img">
+            <img src="images/PoracFood3.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Everybody's Café</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>Everybody’s Café in Pampanga is a heritage restaurant serving authentic Kapampangan cuisine, known for its home-style dishes and timeless local flavors.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="san fernando">
+
+        <div class="card-img">
+            <img src="images/SanFernandoFood1.webp">
+        </div>
+
+        <div class="card-text">
+            <h2>Dish n That San Fernando Pampanga</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>Dish n That in San Fernando, Pampanga is a casual dining spot offering Filipino comfort food and Kapampangan favorites in a relaxed, family-friendly atmosphere.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="san fernando">
+
+        <div class="card-img">
+            <img src="images/SanFernandoFood2.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Hungry Neighbors PH CSFP</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>Hungry Neighbors PH in City of San Fernando, Pampanga is a trendy café-style restaurant offering comfort food, coffee, and modern Filipino dishes in a cozy, youthful atmosphere—perfect for casual dining or hangouts.</p>
+        </div>
+
+    </div>
+    </a>
+
+    <a href="#">
+    <div class="card" data-municipality="san fernando">
+
+        <div class="card-img">
+            <img src="images/SanFernandoFood3.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Rainforest Kitchen by Chef Vince Garcia</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>Rainforest Kitchen by Chef Vince Garcia is a lush garden-style restaurant in San Fernando serving creative Kapampangan and international dishes.</p>
+        </div>
+
+    </div>
+    </a>
+</div>
+
+<p class="Municipalitiestxt">Events in San Fernando City</p>
+
+<div class="container">
+     <a href="#">
+    <div class="card" data-municipality="san fernando">
+
+        <div class="card-img">
+            <img src="images/SanFernandoEvent1.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>Giant Lantern Festival</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>Pampanga’s most famous festival featuring giant lanterns with synchronized lights and intricate designs competing every Christmas season.</p>
+        </div>
+
+    </div>
+    </a>
+</div>
+
+<p class="Municipalitiestxt">Local Products From San Fernando City</p>
+
+<div class="container">
+    <a href="#">
+    <div class="card" data-municipality="san fernando">
+
+        <div class="card-img">
+            <img src="images/SanfernandoProd1.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>San Fernando Parol (Giant Lanterns)</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>The parol, especially the large handcrafted lanterns featured in the Giant Lantern Festival, is the most iconic product of San Fernando. These lanterns symbolize Filipino Christmas traditions and highlight the craftsmanship of local artisans.</p>
+        </div>
+
+    </div>
+    </a>
+
+
+
+    <a href="#">
+    <div class="card" data-municipality="san fernando">
+
+        <div class="card-img">
+            <img src="images/sanFernandoProd2.jpg">
+        </div>
+
+        <div class="card-text">
+            <h2>San Fernando's Tibok-tibok</h2>
+
+            <div class="rating">
+                <span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span><span class="star">☆</span>
+                <span class="score">0.0</span>
+            </div>
+
+            <p>A traditional Kapampangan dessert made from carabao's milk, known for its smooth texture and rich flavor, representing the region's strong dairy-based culinary heritage.</p>
+        </div>
+
+    </div>
+    </a>
+    </div>
+
+    <footer class="footer">
+
+    <div class="footer-col brand">
+        <div class="brand-title">
+            <img src="images/icons8-location-48.png" alt="icon">
+            <h2>Lakbay Pampanga</h2>
+        </div>
+
+        <p class="tagline">
+            Your ultimate guide to exploring the culture, food, and beauty of Pampanga.
+        </p>
+    </div>
+
+    <div class="footer-col">
+        <h3>Quick Links</h3>
+        <ul>
+            <li><a href="AboutPampanga.html">About Pampanga</a></li>
+            <li><a href="Municipalities.html">Municipalities</a></li>
+            <li><a href="Destinations.html">Destinations</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </div>
+
+    <div class="footer-col">
+        <h3>Explore</h3>
+        <ul>
+            <li><a href="Foods.html">Food Places</a></li>
+            <li><a href="Events.html">Events</a></li>
+            <li><a href="LocalProducts.html">Local Products</a></li>
+        </ul>
+    </div>
+
+    <div class="footer-col">
+        <h3>Contact Info</h3>
+
+        <p>
+            <img src="images/icons8-email-24.png" class="footer-icon">
+            <a href="mailto:lakbaypampanga@email.com">lakbaypampanga@email.com</a>
+        </p>
+
+        <p>
+            <img src="images/icons8-phone-50.png" class="footer-icon">
+            <a href="tel:+639000000000">+63 900 000 0000</a>
+        </p>
+
+        <div class="socials">
+            <a href="#"><img src="images/icons8-facebook-24.png"></a>
+            <a href="#"><img src="images/icons8-instagram-24.png"></a>
+            <a href="#"><img src="images/icons8-x-30.png"></a>
+        </div>
+    </div>
+
+</footer>
+
+<div class="footer-bottom">
+    <p>© 2026 Lakbay Pampanga. All Rights Reserved.</p>
+</div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+
+</body>
+</html>
