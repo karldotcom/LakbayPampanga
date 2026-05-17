@@ -1149,5 +1149,32 @@
 <div class="footer-bottom">
     <p>© 2026 Lakbay Pampanga. All Rights Reserved.</p>
 </div> 
+
+<script>
+
+const municipalityFilter = document.getElementById("municipalityFilter");
+const cards = document.querySelectorAll(".card");
+
+municipalityFilter.addEventListener("change", function () {
+
+    const selectedMunicipality = municipalityFilter.value;
+
+    cards.forEach(function(card) {
+
+        const cardMunicipality = card.dataset.municipality;
+
+        if (selectedMunicipality === "all" || cardMunicipality === selectedMunicipality) {
+            card.style.display = "";
+        } 
+        
+        else {
+            card.style.display = "none";
+        }
+
+    });
+
+});
+
+</script>
 </body>
 </html>
